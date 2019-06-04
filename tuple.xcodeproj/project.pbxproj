@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19116C4722A6589F00DDE8B5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19116C4622A6589F00DDE8B5 /* main.swift */; };
+		19116C4E22A6886E00DDE8B5 /* even-numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19116C4D22A6886E00DDE8B5 /* even-numbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		19116C4322A6589F00DDE8B5 /* tuple */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tuple; sourceTree = BUILT_PRODUCTS_DIR; };
 		19116C4622A6589F00DDE8B5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		19116C4D22A6886E00DDE8B5 /* even-numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "even-numbers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				19116C4622A6589F00DDE8B5 /* main.swift */,
+				19116C4D22A6886E00DDE8B5 /* even-numbers.swift */,
 			);
 			path = tuple;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19116C4E22A6886E00DDE8B5 /* even-numbers.swift in Sources */,
 				19116C4722A6589F00DDE8B5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
