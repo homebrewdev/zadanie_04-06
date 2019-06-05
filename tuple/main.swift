@@ -37,7 +37,7 @@ let myInputArr: [Int] = [2, 7, 35, 22, 64, 78, 43]
 // используем функцию из задачи по вычислению числа четных и ср арифметического в входном массиве
 // evenNumbersMedian определена в файле even-numbers.swift
 // и результат работы функции evenNumbersMedian записываем в кортеж let (even, median)
-let (even, median) = evenNumbersMedian(inputArray: myInputArr)
+let (even, median) = evenNumbersMedian(numbers: 5, 23, 22, 14, 77, 52, 15)
 
 // размер массива можно определить методом .count
 var count: Int = 0
